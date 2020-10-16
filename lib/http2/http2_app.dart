@@ -21,6 +21,9 @@ class Http2App extends StatelessWidget {
                 child: Text("GET"),
                 onPressed: () async {
                   // http get Request
+
+                  // für ios
+                  // var response = await http.get("http://127.0.0.1:5000/data");
                   var response = await http.get("http://10.0.2.2:5000/data");
                   print(response.body);
                 },
