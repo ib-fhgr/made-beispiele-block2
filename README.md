@@ -2,7 +2,7 @@
 
 Hier finden sich einige Codebeispiele aus dem zweiten Teil des Kurses.
 
-Kommentieren Sie dazu in `main.dart` die richtige `runApp(...)`-Zeile ein.
+Kommentieren Sie dazu in `lib/main.dart` die richtige `runApp(...)`-Zeile ein.
 
 Beispiele:
 
