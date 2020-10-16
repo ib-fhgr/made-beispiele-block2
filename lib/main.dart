@@ -1,3 +1,4 @@
+import 'package:beispiele/datenbank/datenbank_app.dart';
 import 'package:beispiele/http1/http_app.dart';
 import 'package:beispiele/map1/map1_page.dart';
 import 'package:beispiele/shared_preferences/shared_prefs_app.dart';
@@ -15,5 +16,6 @@ main() {
   // runApp(Http2App());
   // runApp(Map1App());
   // runApp(Map2GoogleApp());
-  runApp(SharedPrefsApp());
+  // runApp(SharedPrefsApp());
+  runApp(DatenbankApp());
 }
